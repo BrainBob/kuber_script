@@ -1,0 +1,36 @@
+# Basic system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Log files from script execution
+*.log
+install-*.log
+setup-*.log
+
+# Temporary files created during execution
+/tmp/k8s-*
+/var/tmp/k8s-*
+
+# Backup files of your script
+init_master.sh.bak
+join_worker.sh.bak
+join_worker_simple.sh.bak
+*.old
+*.backup
+
+# Test and development files
+test/
+tests/
+__pycache__/
+
+# Generated configuration files (if any)
+*.env.local
+config.local
